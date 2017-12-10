@@ -1,0 +1,8 @@
+* text eol=lf
+
+.gitignore text
+*.gitattributes text
+*.json text
+*.js text
+*.md text
+*.sh text

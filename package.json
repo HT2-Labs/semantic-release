@@ -1,0 +1,21 @@
+{
+  "name": "@ht2-labs/semantic-release",
+  "version": "1.0.0",
+  "description": "A package containing HT2 Labs' Semantic Release scripts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HT2-Labs/semantic-release"
+  },
+  "author": "HT2-Labs",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@semantic-release/condition-travis": "7.0.1",
+    "@semantic-release/github": "2.2.0",
+    "@semantic-release/npm": "2.3.0",
+    "condition-circle": "1.6.0",
+    "last-release-git": "0.0.3",
+    "semantic-release": "11.0.2",
+    "semantic-release-docker": "2.0.0",
+    "simple-git": "1.85.0"
+  }
+}
