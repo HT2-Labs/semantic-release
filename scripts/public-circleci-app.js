@@ -1,23 +1,21 @@
-const semanticRelease = require('semantic-release');
-const pullTags = require('../utils/pullTags');
-const config = require('../utils/config');
+#!/usr/bin/env node
+const release = require('../utils/release');
+const package = require('../utils/package');
 
-pullTags(() => {
-  semanticRelease({
-    "getLastRelease": "last-release-git",
-    "verifyConditions": [
-      "condition-circle",
-      "semantic-release-docker",
-      "@semantic-release/github",
-      "@semantic-release/npm"
-    ],
-    "publish": [
-      "@semantic-release/github",
-      "@semantic-release/npm",
-      {
-        "path": "semantic-release-docker",
-        "name": package.name
-      }
-    ]
-  });  
+release({
+  "getLastRelease": "last-release-git",
+  "verifyConditions": [
+    "condition-circle",
+    "semantic-release-docker",
+    "@semantic-release/github",
+    "@semantic-release/npm"
+  ],
+  "publish": [
+    "@semantic-release/github",
+    "@semantic-release/npm",
+    {
+      "path": "semantic-release-docker",
+      "name": package.name
+    }
+  ]
 });

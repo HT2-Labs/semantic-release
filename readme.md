@@ -9,12 +9,12 @@
 ### Scripts
 Project | Script
 --- | ---
-Public CircleCI App | `node ./node_modules/@ht2-labs/semantic-release/scripts/public-circleci-app.js`
-Public CircleCI Lib | `node ./node_modules/@ht2-labs/semantic-release/scripts/public-circleci-lib.js`
-Public TravisCI App | `node ./node_modules/@ht2-labs/semantic-release/scripts/public-travisci-app.js`
-Public TravisCI Lib | `node ./node_modules/@ht2-labs/semantic-release/scripts/public-travisci-lib.js`
-Private CircleCI | `node ./node_modules/@ht2-labs/semantic-release/scripts/private-circleci.js`
-Private TravisCI | `node ./node_modules/@ht2-labs/semantic-release/scripts/private-travisci.js`
+Public CircleCI App | `ht2-release-public-circleci-app.js`
+Public CircleCI Lib | `ht2-release-public-circleci-lib.js`
+Public TravisCI App | `ht2-release-public-travisci-app.js`
+Public TravisCI Lib | `ht2-release-public-travisci-lib.js`
+Private CircleCI | `ht2-release-private-circleci.js`
+Private TravisCI | `ht2-release-private-travisci.js`
 
 ### CI Examples
 #### CircleCI Example

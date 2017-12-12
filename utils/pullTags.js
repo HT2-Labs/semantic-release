@@ -1,3 +1,5 @@
-const git = require('simple-git')(process.cwd());
+const git = require('simple-git/promise')(process.cwd());
 
-module.exports = git.pull;
+module.exports = async () => {
+  await git.pull();
+}

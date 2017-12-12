@@ -8,6 +8,14 @@
   },
   "author": "HT2-Labs",
   "license": "GPL-3.0",
+  "bin": {
+    "ht2-release-private-circleci": "./scripts/private-circleci.js",
+    "ht2-release-private-travisci": "./scripts/private-travisci.js",
+    "ht2-release-public-circleci-app": "./scripts/public-circleci-app.js",
+    "ht2-release-public-circleci-lib": "./scripts/public-circleci-lib.js",
+    "ht2-release-public-travisci-app": "./scripts/public-travisci-app.js",
+    "ht2-release-public-travisci-lib": "./scripts/public-travisci-lib.js"
+  },
   "dependencies": {
     "@semantic-release/condition-travis": "7.0.1",
     "@semantic-release/github": "2.2.0",
