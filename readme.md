@@ -3,7 +3,7 @@
 
 ### Usage
 1. Install it with `npm i -D @ht2-labs/semantic-release`.
-1. Add a `release` script to your `package.json` file using one of the [scripts](#scripts).
+1. Add a `semantic-release` script to your `package.json` file using one of the [scripts](#scripts).
 1. Use `npm run release` [after successful builds in your CI config](#ci-examples).
 
 ### Scripts

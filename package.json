@@ -8,6 +8,9 @@
   },
   "author": "HT2-Labs",
   "license": "GPL-3.0",
+  "scripts": {
+    "semantic-release": "./scripts/public-circleci-app.js"
+  },
   "bin": {
     "ht2-release-private-circleci": "./scripts/private-circleci.js",
     "ht2-release-private-travisci": "./scripts/private-travisci.js",
