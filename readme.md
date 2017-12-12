@@ -9,12 +9,12 @@
 ### Scripts
 Project | Script
 --- | ---
-Public CircleCI App | `ht2-release-public-circleci-app.js`
-Public CircleCI Lib | `ht2-release-public-circleci-lib.js`
-Public TravisCI App | `ht2-release-public-travisci-app.js`
-Public TravisCI Lib | `ht2-release-public-travisci-lib.js`
-Private CircleCI | `ht2-release-private-circleci.js`
-Private TravisCI | `ht2-release-private-travisci.js`
+Public CircleCI App | `ht2-release-public-circleci-app`
+Public CircleCI Lib | `ht2-release-public-circleci-lib`
+Public TravisCI App | `ht2-release-public-travisci-app`
+Public TravisCI Lib | `ht2-release-public-travisci-lib`
+Private CircleCI | `ht2-release-private-circleci`
+Private TravisCI | `ht2-release-private-travisci`
 
 ### CI Examples
 #### CircleCI Example
