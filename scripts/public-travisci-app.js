@@ -3,7 +3,7 @@ const release = require('../utils/release');
 const package = require('../utils/package');
 
 release({
-  "getLastRelease": "last-release-git",
+  "getLastRelease": "@semantic-release/last-release-git-tag",
   "verifyConditions": [
     "semantic-release-docker",
     "@semantic-release/condition-travis",
