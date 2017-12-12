@@ -21,11 +21,11 @@ Private TravisCI | `ht2-release-private-travisci`
 ```yml
 - deploy:
     name: Release
-    command: npm run release
+    command: npm run semantic-release
 ```
 
 #### TravisCI Example
 ```yml
 after_success:
-  - npm run release
+  - npm run semantic-release
 ```
