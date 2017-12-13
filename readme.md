@@ -18,7 +18,7 @@ Note that if you're using this for a "public" (npm published) project and your s
 
 ```json
 "publishConfig": {
-  "access": true
+  "access": "public"
 }
 ```
 
