@@ -1,8 +1,9 @@
 #!/usr/bin/env node
+const path = require('path');
 const release = require('../utils/release');
 
 release({
-  "getLastRelease": "@semantic-release/last-release-git-tag",
+  "getLastRelease": path.join(__dirname, '../plugins/getLastRelease'),
   "verifyConditions": [
     "@semantic-release/condition-travis",
     "@semantic-release/github",

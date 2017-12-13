@@ -1,12 +1,16 @@
 {
   "name": "@ht2-labs/semantic-release",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "A package containing HT2 Labs' Semantic Release scripts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HT2-Labs/semantic-release"
+    "url": "git+https://github.com/HT2-Labs/semantic-release.git"
   },
-  "author": "HT2-Labs",
+  "bugs": {
+    "url": "https://github.com/HT2-Labs/semantic-release/issues"
+  },
+  "homepage": "https://github.com/HT2-Labs/semantic-release#readme",
+  "author": "ht2-labs",
   "license": "GPL-3.0",
   "scripts": {
     "semantic-release": "./scripts/public-circleci-lib.js"
@@ -22,11 +26,15 @@
   "dependencies": {
     "@semantic-release/condition-travis": "7.0.1",
     "@semantic-release/github": "2.2.0",
-    "@semantic-release/last-release-git-tag": "2.0.0",
     "@semantic-release/npm": "2.3.0",
     "condition-circle": "1.6.0",
     "semantic-release": "11.0.2",
     "semantic-release-docker": "2.0.0",
+    "semver": "5.4.1",
     "simple-git": "1.85.0"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
   }
 }

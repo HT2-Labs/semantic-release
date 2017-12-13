@@ -11,15 +11,7 @@ jobs:
       - NPM_CONFIG_LOGLEVEL: warn
     working_directory: ~/repo
     steps:
-      - run:
-          name: Update Git
-          command: |
-            sudo apt-get update && sudo apt-get upgrade
-            sudo apt-get install git -y
       - checkout
-      - run:
-          name: Semantic Release Debugging
-          command: git --version
       - setup_remote_docker:
           docker_layer_caching: true
       - restore_cache:
