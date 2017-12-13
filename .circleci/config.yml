@@ -11,6 +11,11 @@ jobs:
       - NPM_CONFIG_LOGLEVEL: warn
     working_directory: ~/repo
     steps:
+      - run:
+          name: Update Git
+          command: |
+            apt-get update && apt-get upgrade
+            apt-get install git -y
       - checkout
       - run:
           name: Semantic Release Debugging
