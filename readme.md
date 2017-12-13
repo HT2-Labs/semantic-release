@@ -9,6 +9,10 @@
 1. Use `npm run release` [after successful builds in your CI config](#ci-examples).
 1. Add `GH_TOKEN` to your CI environment. If you'd like to use @HT2Bot, @ryansmith94 can provide the token, but you'll need to add @HT2Bot to your repo.
 1. Add `NPM_TOKEN` to your CI environment (only for "public" projects).
+1. Add Docker environment variables to your CI environment (only for "app" projects).
+  1. `DOCKER_EMAIL`
+  1. `DOCKER_USERNAME`
+  1. `DOCKER_PASSWORD`
 
 Note that if you're using this for a "public" (npm published) project and your scoping the project to the ht2-labs npm organisation you must include the following snippet in your `package.json` file.
 
