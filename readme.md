@@ -1,6 +1,8 @@
 # Semantic Release
 > Package containing HT2 Labs' scripts for Semantic Release.
 
+**ONLY WORKS WITH NODE 8 AND ABOVE IN CI**
+
 ### Usage
 1. Install it with `npm i -D @ht2-labs/semantic-release`.
 1. Add a `semantic-release` script to your `package.json` file using one of the [scripts](#scripts).
