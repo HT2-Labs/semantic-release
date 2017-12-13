@@ -6,6 +6,14 @@
 1. Add a `semantic-release` script to your `package.json` file using one of the [scripts](#scripts).
 1. Use `npm run release` [after successful builds in your CI config](#ci-examples).
 
+Note that if you're using this for a "public" (npm published) project and your scoping the project to the ht2-labs npm organisation you must include the following snippet in your `package.json` file.
+
+```json
+"publishConfig": {
+  "access": true
+}
+```
+
 ### Scripts
 Project | Script
 --- | ---
