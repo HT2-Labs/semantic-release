@@ -3,7 +3,7 @@ const path = require('path');
 const release = require('../utils/release');
 
 release({
-  "getLastRelease": path.join(__dirname, '../plugins/getLastRelease'),
+  "getLastRelease": "@semantic-release/git",
   "verifyConditions": [
     "condition-circle",
     "semantic-release-docker",
