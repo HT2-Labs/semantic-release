@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const path = require('path');
+const package = require('../utils/package');
 const release = require('../utils/release');
 
 release({
