@@ -15,7 +15,7 @@ release({
     "@semantic-release/npm",
     {
       "path": "semantic-release-docker",
-      "name": package.name
+      "name": package.name.replace(/@/g, ''),
     }
   ]
 });
