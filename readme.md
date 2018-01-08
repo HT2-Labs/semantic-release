@@ -6,7 +6,7 @@
 ### Usage
 1. Install it with `npm i -D -E @ht2-labs/semantic-release@latest`.
 1. Add a `semantic-release` script to your `package.json` file using one of the [scripts](#scripts).
-1. Use `npm run release` [after successful builds in your CI config](#ci-examples).
+1. Use `npm run semantic-release` [after successful builds in your CI config](#ci-examples).
 1. Add `GH_TOKEN` to your CI environment. If you'd like to use @HT2Bot, @ryansmith94 can provide the token, but you'll need to add @HT2Bot to your repo.
 1. Add `NPM_TOKEN` to your CI environment (only for "public" projects).
 1. Add Docker environment variables to your CI environment (only for "app" projects).
