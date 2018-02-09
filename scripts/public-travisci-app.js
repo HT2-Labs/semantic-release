@@ -4,7 +4,6 @@ const package = require('../utils/package');
 const release = require('../utils/release');
 
 release({
-  "getLastRelease": "@semantic-release/git",
   "verifyConditions": [
     "semantic-release-docker",
     "@semantic-release/condition-travis",
