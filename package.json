@@ -28,7 +28,7 @@
     "@semantic-release/github": "^4.0.2",
     "@semantic-release/npm": "^3.0.1",
     "condition-circle": "^2.0.1",
-    "semantic-release": "^13.2.0",
+    "semantic-release": "^14.0.0",
     "semantic-release-docker": "^2.0.2",
     "semver": "^5.4.1",
     "simple-git": "^1.85.0"
