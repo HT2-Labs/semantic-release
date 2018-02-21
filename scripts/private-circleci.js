@@ -7,6 +7,7 @@ release({
     "condition-circle",
     "@semantic-release/github"
   ],
+  "prepare": [],
   "publish": [
     "@semantic-release/github"
   ]

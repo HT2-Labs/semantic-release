@@ -10,6 +10,9 @@ release({
     "@semantic-release/github",
     "@semantic-release/npm"
   ],
+  "prepare": [
+    "@semantic-release/npm"
+  ],
   "publish": [
     "@semantic-release/github",
     "@semantic-release/npm",

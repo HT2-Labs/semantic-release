@@ -7,6 +7,7 @@ release({
     "@semantic-release/condition-travis",
     "@semantic-release/github"
   ],
+  "prepare": [],
   "publish": [
     "@semantic-release/github"
   ]
