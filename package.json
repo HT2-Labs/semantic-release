@@ -24,14 +24,14 @@
     "ht2-release-public-travisci-lib": "./scripts/public-travisci-lib.js"
   },
   "dependencies": {
-    "@semantic-release/condition-travis": "^7.1.4",
-    "@semantic-release/github": "^4.0.2",
-    "@semantic-release/npm": "^3.2.0",
-    "condition-circle": "^2.0.1",
-    "semantic-release": "^15.0.0",
-    "semantic-release-docker": "^2.0.2",
-    "semver": "^5.4.1",
-    "simple-git": "^1.85.0"
+    "@semantic-release/condition-travis": "7.1.4",
+    "@semantic-release/github": "4.0.3",
+    "@semantic-release/npm": "3.2.0",
+    "condition-circle": "2.0.1",
+    "semantic-release": "15.0.0",
+    "semantic-release-docker": "2.0.2",
+    "semver": "5.5.0",
+    "simple-git": "1.91.0"
   },
   "devDependencies": {},
   "publishConfig": {
