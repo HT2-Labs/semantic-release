@@ -26,7 +26,7 @@
   "dependencies": {
     "@semantic-release/condition-travis": "7.1.4",
     "@semantic-release/github": "4.2.18",
-    "@semantic-release/npm": "3.3.2",
+    "@semantic-release/npm": "3.3.4",
     "condition-circle": "2.0.1",
     "semantic-release": "15.6.0",
     "semantic-release-docker": "2.1.0",
