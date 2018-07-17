@@ -27,6 +27,7 @@ Project | Script
 --- | ---
 Public CircleCI App | `ht2-release-public-circleci-app`
 Public CircleCI Lib | `ht2-release-public-circleci-lib`
+Public CircleCI Lib (/dist only) | `ht2-release-public-circleci-lib-dist`
 Public TravisCI App | `ht2-release-public-travisci-app`
 Public TravisCI Lib | `ht2-release-public-travisci-lib`
 Private CircleCI | `ht2-release-private-circleci`
