@@ -19,6 +19,7 @@
     "ht2-release-private-circleci": "./scripts/private-circleci.js",
     "ht2-release-private-travisci": "./scripts/private-travisci.js",
     "ht2-release-public-circleci-app": "./scripts/public-circleci-app.js",
+    "ht2-release-public-circleci-lib-dist": "./scripts/public-circleci-lib-dist.js",
     "ht2-release-public-circleci-lib": "./scripts/public-circleci-lib.js",
     "ht2-release-public-travisci-app": "./scripts/public-travisci-app.js",
     "ht2-release-public-travisci-lib": "./scripts/public-travisci-lib.js"
