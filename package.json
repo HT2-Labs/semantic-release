@@ -30,7 +30,7 @@
     "@semantic-release/npm": "4.0.2",
     "condition-circle": "2.0.1",
     "fs-extra": "^7.0.0",
-    "semantic-release": "15.9.3",
+    "semantic-release": "15.9.5",
     "semantic-release-docker": "2.1.0",
     "semver": "5.5.0",
     "simple-git": "1.96.0"
