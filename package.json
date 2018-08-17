@@ -32,7 +32,7 @@
     "fs-extra": "^7.0.0",
     "semantic-release": "15.9.8",
     "semantic-release-docker": "2.1.0",
-    "semver": "5.5.0",
+    "semver": "5.5.1",
     "simple-git": "1.96.0"
   },
   "devDependencies": {},
