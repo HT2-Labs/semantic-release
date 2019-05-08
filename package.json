@@ -27,10 +27,10 @@
   "dependencies": {
     "@semantic-release/condition-travis": "7.1.4",
     "@semantic-release/github": "5.2.10",
-    "@semantic-release/npm": "5.1.4",
+    "@semantic-release/npm": "5.1.7",
     "condition-circle": "2.0.2",
     "fs-extra": "^7.0.0",
-    "semantic-release": "15.13.3",
+    "semantic-release": "15.13.12",
     "semantic-release-docker": "2.2.0",
     "semver": "5.7.0",
     "simple-git": "1.113.0"
