@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@semantic-release/condition-travis": "7.1.4",
-    "@semantic-release/github": "5.5.0",
+    "@semantic-release/github": "5.5.2",
     "@semantic-release/npm": "5.2.0",
     "condition-circle": "2.0.2",
     "fs-extra": "^7.0.0",
