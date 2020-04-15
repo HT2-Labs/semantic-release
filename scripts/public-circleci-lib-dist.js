@@ -11,7 +11,6 @@ const main = async () => {
     ]);
     await release({
       "verifyConditions": [
-        "condition-circle",
         "@semantic-release/github",
         "@semantic-release/npm"
       ],
