@@ -5,7 +5,6 @@ const release = require('../utils/release');
 
 release({
   "verifyConditions": [
-    "condition-circle",
     "semantic-release-docker",
     "@semantic-release/github",
     "@semantic-release/npm"

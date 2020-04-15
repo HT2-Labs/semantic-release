@@ -4,7 +4,6 @@ const release = require('../utils/release');
 
 release({
   "verifyConditions": [
-    "@semantic-release/condition-travis",
     "@semantic-release/github"
   ],
   "prepare": [],
