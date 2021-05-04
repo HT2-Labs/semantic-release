@@ -25,8 +25,8 @@
     "ht2-release-public-travisci-lib": "./scripts/public-travisci-lib.js"
   },
   "dependencies": {
-    "@semantic-release/github": "7.2.1",
-    "@semantic-release/npm": "7.1.1",
+    "@semantic-release/github": "7.2.2",
+    "@semantic-release/npm": "7.1.2",
     "fs-extra": "^9.0.0",
     "semantic-release": "17.4.2",
     "semantic-release-docker": "2.2.0",
