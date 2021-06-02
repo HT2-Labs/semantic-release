@@ -11,7 +11,7 @@
   },
   "homepage": "https://github.com/HT2-Labs/semantic-release#readme",
   "author": "ht2-labs",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "scripts": {
     "semantic-release": "./scripts/public-circleci-lib.js"
   },
