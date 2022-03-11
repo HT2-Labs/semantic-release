@@ -31,7 +31,7 @@
     "semantic-release": "19.0.2",
     "semantic-release-docker": "2.2.0",
     "semver": "7.3.5",
-    "simple-git": "2.48.0"
+    "simple-git": "3.3.0"
   },
   "devDependencies": {},
   "publishConfig": {
