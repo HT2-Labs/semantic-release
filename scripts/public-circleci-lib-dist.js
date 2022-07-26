@@ -3,9 +3,8 @@ const release = require('../utils/release');
 const fs = require('fs-extra');
 
 async function copyBestPath(bestPaths, targetPath, overwrite = true) {
-  if (!overwrite
-     && fs.existsSync(targetPath)) {
-    console.log(`Skipping ${bestPaths} as ${targetPath} has targeted file.`);
+  if (!overwrite && fs.existsSync(targetPath)) {
+    console.log(`Skipping ${bestPaths.join(' ')} as ${targetPath} has targeted file.`);
     return;
   }
 
