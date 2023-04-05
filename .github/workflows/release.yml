@@ -2,6 +2,8 @@ name: Release
 
 on: push
 
+permissions:
+    contents: read
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -14,19 +16,12 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.SEMANTIC_RELEASE_GITHUB_TOKEN }}
-
+      - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: "16"
           cache: 'npm'
-
       - run: npm ci
-
       - run: npm run semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_GITHUB_TOKEN }}
