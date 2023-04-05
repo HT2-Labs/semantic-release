@@ -14,12 +14,19 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.SEMANTIC_RELEASE_GITHUB_TOKEN }}
+
       - uses: actions/setup-node@v3
         with:
           node-version: "16"
           cache: 'npm'
+
       - run: npm ci
+
       - run: npm run semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_GITHUB_TOKEN }}
